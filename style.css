@@ -654,7 +654,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    width: auto;
 }
 
 .hero-bloc-text {
@@ -692,7 +692,6 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1em;
     font-weight: 700;
@@ -700,6 +699,7 @@ p {
 
 .social {
     margin: auto;
+    font-size: 1em;
 }
 
 h2 {
@@ -709,7 +709,6 @@ h2 {
 
 h3 {
     font-size: 1.25em;
-    text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
@@ -1036,9 +1035,6 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-    .col-sm-6 h3{
-    font-size: 1em;
     }
 }
 
