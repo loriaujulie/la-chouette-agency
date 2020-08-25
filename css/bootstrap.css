@@ -83,13 +83,13 @@ mark {
 }
 
 small {
-    font-size: 80%
+    font-size: 1em;
 }
 
 sub,
 sup {
     position: relative;
-    font-size: 75%;
+    font-size: 1em;
     line-height: 0;
     vertical-align: baseline
 }
@@ -1384,13 +1384,13 @@ th {
 }
 
 html {
-    font-size: 10px;
+    font-size: 16px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
@@ -1563,7 +1563,7 @@ h2 .small,
 h2 small,
 h3 .small,
 h3 small {
-    font-size: 65%
+    font-size: 1em;
 }
 
 .h4,
@@ -1588,37 +1588,37 @@ h5 .small,
 h5 small,
 h6 .small,
 h6 small {
-    font-size: 75%
+    font-size: .8em;
 }
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: .8em;
 }
 
 .h2,
 h2 {
-    font-size: 30px
+    font-size: 1.9em;
 }
 
 .h3,
 h3 {
-    font-size: 24px
+    font-size: 1.5em;
 }
 
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 1.1em;
 }
 
 .h5,
 h5 {
-    font-size: 14px
+    font-size: .9em;
 }
 
 .h6,
 h6 {
-    font-size: 12px
+    font-size: .8em;
 }
 
 p {
@@ -1627,20 +1627,20 @@ p {
 
 .lead {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
     line-height: 1.4
 }
 
 @media (min-width:768px) {
     .lead {
-        font-size: 21px
+        font-size: 1.3em;
     }
 }
 
 .small,
 small {
-    font-size: 85%
+    font-size: .8em;
 }
 
 .mark,
@@ -1852,14 +1852,14 @@ abbr[title] {
 }
 
 .initialism {
-    font-size: 90%;
+    font-size: 0.9em;
     text-transform: uppercase
 }
 
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 17.5px;
+    font-size: 1.1em;
     border-left: 5px solid #eee
 }
 
@@ -1873,7 +1873,7 @@ blockquote .small,
 blockquote footer,
 blockquote small {
     display: block;
-    font-size: 80%;
+    font-size: 0.8em;
     line-height: 1.42857143;
     color: #777
 }
@@ -1926,7 +1926,7 @@ samp {
 
 code {
     padding: 2px 4px;
-    font-size: 90%;
+    font-size: .9em;
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px
@@ -1934,7 +1934,7 @@ code {
 
 kbd {
     padding: 2px 4px;
-    font-size: 90%;
+    font-size: .9em;
     color: #fff;
     background-color: #333;
     border-radius: 3px;
@@ -1944,7 +1944,7 @@ kbd {
 
 kbd kbd {
     padding: 0;
-    font-size: 100%;
+    font-size: 1em;
     font-weight: 700;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -1954,7 +1954,7 @@ pre {
     display: block;
     padding: 9.5px;
     margin: 0 0 10px;
-    font-size: 13px;
+    font-size: .8em;
     line-height: 1.42857143;
     color: #333;
     word-break: break-all;
@@ -2010,11 +2010,6 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
-
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -2064,7 +2059,6 @@ pre code {
 .col-xs-8,
 .col-xs-9 {
     position: relative;
-    min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
 }
@@ -2085,7 +2079,8 @@ pre code {
 }
 
 .col-xs-12 {
-    width: 100%
+    width: 100%;
+    font-size: 1.3em;
 }
 
 .col-xs-11 {
@@ -3079,7 +3074,7 @@ legend {
     width: 100%;
     padding: 0;
     margin-bottom: 20px;
-    font-size: 21px;
+    font-size: 1.3em;
     line-height: inherit;
     color: #333;
     border: 0;
@@ -3131,7 +3126,7 @@ input[type=radio]:focus {
 output {
     display: block;
     padding-top: 7px;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.42857143;
     color: #555
 }
@@ -3141,7 +3136,7 @@ output {
     width: 100%;
     height: 34px;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.42857143;
     color: #555;
     background-color: #fff;
@@ -3315,7 +3310,7 @@ fieldset[disabled] .radio label {
 .input-sm {
     height: 30px;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -3333,7 +3328,7 @@ textarea.input-sm {
 .form-group-sm .form-control {
     height: 30px;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -3352,14 +3347,14 @@ textarea.input-sm {
     height: 30px;
     min-height: 32px;
     padding: 6px 10px;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.5
 }
 
 .input-lg {
     height: 46px;
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -3377,7 +3372,7 @@ textarea.input-lg {
 .form-group-lg .form-control {
     height: 46px;
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -3396,7 +3391,7 @@ textarea.input-lg {
     height: 46px;
     min-height: 38px;
     padding: 11px 16px;
-    font-size: 18px;
+    font-size: 1.1em;;
     line-height: 1.3333333
 }
 
@@ -3642,14 +3637,14 @@ textarea.input-lg {
 @media (min-width:768px) {
     .form-horizontal .form-group-lg .control-label {
         padding-top: 14.33px;
-        font-size: 18px
+        font-size: 1.1em;
     }
 }
 
 @media (min-width:768px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
-        font-size: 12px
+        font-size: .8em;
     }
 }
 
@@ -3657,7 +3652,7 @@ textarea.input-lg {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: .9em;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -4201,7 +4196,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-group-lg>.btn,
 .btn-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -4209,7 +4204,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-group-sm>.btn,
 .btn-sm {
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 0.8em;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -4217,7 +4212,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-group-xs>.btn,
 .btn-xs {
     padding: 1px 5px;
-    font-size: 12px;
+    font-size: 0.8em;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -4310,7 +4305,7 @@ tbody.collapse.in {
     min-width: 160px;
     padding: 5px 0;
     margin: 2px 0 0;
-    font-size: 14px;
+    font-size: .9em;
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -4397,7 +4392,7 @@ tbody.collapse.in {
 .dropdown-header {
     display: block;
     padding: 3px 20px;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.42857143;
     color: #777;
     white-space: nowrap
@@ -4674,7 +4669,7 @@ tbody.collapse.in {
 .input-group-lg>.input-group-btn>.btn {
     height: 46px;
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -4700,7 +4695,7 @@ textarea.input-group-lg>.input-group-btn>.btn {
 .input-group-sm>.input-group-btn>.btn {
     height: 30px;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -4742,7 +4737,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .input-group-addon {
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: .9em;
     font-weight: 400;
     line-height: 1;
     color: #555;
@@ -4754,13 +4749,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .input-group-addon.input-sm {
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: .8em;
     border-radius: 3px
 }
 
 .input-group-addon.input-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.1em;
     border-radius: 6px
 }
 
@@ -5190,7 +5185,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     float: left;
     height: 50px;
     padding: 15px 15px;
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 20px
 }
 
@@ -5765,7 +5760,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination-lg>li>a,
 .pagination-lg>li>span {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 1.3333333
 }
 
@@ -5784,7 +5779,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination-sm>li>a,
 .pagination-sm>li>span {
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.5
 }
 
@@ -5848,7 +5843,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .label {
     display: inline;
     padding: .2em .6em .3em;
-    font-size: 75%;
+    font-size: .8em;
     font-weight: 700;
     line-height: 1;
     color: #fff;
@@ -5932,7 +5927,7 @@ a.label:hover {
     display: inline-block;
     min-width: 10px;
     padding: 3px 7px;
-    font-size: 12px;
+    font-size: .8em;
     font-weight: 700;
     line-height: 1;
     color: #fff;
@@ -5998,7 +5993,7 @@ a.badge:hover {
 
 .jumbotron p {
     margin-bottom: 15px;
-    font-size: 21px;
+    font-size: 1.2em;
     font-weight: 200
 }
 
@@ -6027,7 +6022,7 @@ a.badge:hover {
     }
     .jumbotron .h1,
     .jumbotron h1 {
-        font-size: 63px
+        font-size: 4em;
     }
 }
 
@@ -6196,7 +6191,7 @@ a.thumbnail:hover {
     float: left;
     width: 0;
     height: 100%;
-    font-size: 12px;
+    font-size: .8em;
     line-height: 20px;
     color: #fff;
     text-align: center;
@@ -6594,7 +6589,7 @@ button.list-group-item-danger.active:hover {
 .panel-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 1em;
     color: inherit
 }
 
@@ -7037,7 +7032,7 @@ button.list-group-item-danger.active:hover {
 
 .close {
     float: right;
-    font-size: 21px;
+    font-size: 1.3em;
     font-weight: 700;
     line-height: 1;
     color: #000;
@@ -7213,7 +7208,7 @@ button.close {
     z-index: 1070;
     display: block;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: .8em;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;
@@ -7347,7 +7342,7 @@ button.close {
     max-width: 276px;
     padding: 1px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: .9em;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;
@@ -7391,7 +7386,7 @@ button.close {
 .popover-title {
     padding: 8px 14px;
     margin: 0;
-    font-size: 14px;
+    font-size: .9em;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ebebeb;
     border-radius: 5px 5px 0 0
@@ -7587,7 +7582,7 @@ button.close {
     bottom: 0;
     left: 0;
     width: 15%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
@@ -7720,7 +7715,7 @@ button.close {
         width: 30px;
         height: 30px;
         margin-top: -15px;
-        font-size: 30px
+        font-size: 1.9em;
     }
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .icon-prev {
