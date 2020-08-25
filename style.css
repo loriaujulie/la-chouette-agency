@@ -721,7 +721,10 @@ h3 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-bottom: 10px;
 }
 
 .portfolio-thumb {
