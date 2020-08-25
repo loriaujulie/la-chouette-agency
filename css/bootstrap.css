@@ -7635,13 +7635,11 @@ button.close {
     left: 50%;
     margin-left: -10px
 }
-
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
     right: 50%;
     margin-right: -10px
 }
-
 .carousel-control .icon-next,
 .carousel-control .icon-prev {
     width: 20px;
@@ -7649,15 +7647,12 @@ button.close {
     font-family: serif;
     line-height: 1
 }
-
 .carousel-control .icon-prev:before {
     content: '\2039'
 }
-
 .carousel-control .icon-next:before {
     content: '\203a'
 }
-
 .carousel-indicators {
     position: absolute;
     bottom: 10px;
@@ -7669,7 +7664,6 @@ button.close {
     text-align: center;
     list-style: none
 }
-
 .carousel-indicators li {
     display: inline-block;
     width: 10px;
@@ -7682,14 +7676,12 @@ button.close {
     border: 1px solid #fff;
     border-radius: 10px
 }
-
 .carousel-indicators .active {
     width: 12px;
     height: 12px;
     margin: 0;
     background-color: #fff
 }
-
 .carousel-caption {
     position: absolute;
     right: 15%;
@@ -7702,11 +7694,9 @@ button.close {
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6)
 }
-
 .carousel-caption .btn {
     text-shadow: none
 }
-
 @media screen and (min-width:768px) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
@@ -7734,7 +7724,6 @@ button.close {
         bottom: 20px
     }
 }
-
 .btn-group-vertical>.btn-group:after,
 .btn-group-vertical>.btn-group:before,
 .btn-toolbar:after,
@@ -7768,7 +7757,6 @@ button.close {
     display: table;
     content: " "
 }
-
 .btn-group-vertical>.btn-group:after,
 .btn-toolbar:after,
 .clearfix:after,
@@ -7786,33 +7774,26 @@ button.close {
 .row:after {
     clear: both
 }
-
 .center-block {
     display: block;
     margin-right: auto;
     margin-left: auto
 }
-
 .pull-right {
     float: right !important
 }
-
 .pull-left {
     float: left !important
 }
-
 .hide {
     display: none !important
 }
-
 .show {
     display: block !important
 }
-
 .invisible {
     visibility: hidden
 }
-
 .text-hide {
     font: 0/0 a;
     color: transparent;
@@ -7820,26 +7801,21 @@ button.close {
     background-color: transparent;
     border: 0
 }
-
 .hidden {
     display: none !important
 }
-
 .affix {
     position: fixed
 }
-
 @-ms-viewport {
     width: device-width
 }
-
 .visible-lg,
 .visible-md,
 .visible-sm,
 .visible-xs {
     display: none !important
 }
-
 .visible-lg-block,
 .visible-lg-inline,
 .visible-lg-inline-block,
@@ -7854,7 +7830,6 @@ button.close {
 .visible-xs-inline-block {
     display: none !important
 }
-
 @media (max-width:767px) {
     .visible-xs {
         display: block !important
@@ -7870,25 +7845,21 @@ button.close {
         display: table-cell !important
     }
 }
-
 @media (max-width:767px) {
     .visible-xs-block {
         display: block !important
     }
 }
-
 @media (max-width:767px) {
     .visible-xs-inline {
         display: inline !important
     }
 }
-
 @media (max-width:767px) {
     .visible-xs-inline-block {
         display: inline-block !important
     }
 }
-
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm {
         display: block !important
@@ -7904,25 +7875,21 @@ button.close {
         display: table-cell !important
     }
 }
-
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-block {
         display: block !important
     }
 }
-
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-inline {
         display: inline !important
     }
 }
-
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-inline-block {
         display: inline-block !important
     }
 }
-
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md {
         display: block !important
@@ -7938,25 +7905,21 @@ button.close {
         display: table-cell !important
     }
 }
-
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-block {
         display: block !important
     }
 }
-
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-inline {
         display: inline !important
     }
 }
-
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-inline-block {
         display: inline-block !important
     }
 }
-
 @media (min-width:1200px) {
     .visible-lg {
         display: block !important
@@ -7972,53 +7935,44 @@ button.close {
         display: table-cell !important
     }
 }
-
 @media (min-width:1200px) {
     .visible-lg-block {
         display: block !important
     }
 }
-
 @media (min-width:1200px) {
     .visible-lg-inline {
         display: inline !important
     }
 }
-
 @media (min-width:1200px) {
     .visible-lg-inline-block {
         display: inline-block !important
     }
 }
-
 @media (max-width:767px) {
     .hidden-xs {
         display: none !important
     }
 }
-
 @media (min-width:768px) and (max-width:991px) {
     .hidden-sm {
         display: none !important
     }
 }
-
 @media (min-width:992px) and (max-width:1199px) {
     .hidden-md {
         display: none !important
     }
 }
-
 @media (min-width:1200px) {
     .hidden-lg {
         display: none !important
     }
 }
-
 .visible-print {
     display: none !important
 }
-
 @media print {
     .visible-print {
         display: block !important
@@ -8034,37 +7988,30 @@ button.close {
         display: table-cell !important
     }
 }
-
 .visible-print-block {
     display: none !important
 }
-
 @media print {
     .visible-print-block {
         display: block !important
     }
 }
-
 .visible-print-inline {
     display: none !important
 }
-
 @media print {
     .visible-print-inline {
         display: inline !important
     }
 }
-
 .visible-print-inline-block {
     display: none !important
 }
-
 @media print {
     .visible-print-inline-block {
         display: inline-block !important
     }
 }
-
 @media print {
     .hidden-print {
         display: none !important
