@@ -356,6 +356,7 @@ a:hover {
 .citation{
     font-style: italic;
     font-weight: bold;
+    font-size: 1.15em;
 }
 ul{
     font-size: 1.2em;
