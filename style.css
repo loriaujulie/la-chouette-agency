@@ -358,6 +358,15 @@ a:hover {
     font-weight: bold;
 }
 
+
+.keywords{
+    color:#cccccc;
+    font-size:1px;
+}
+.keywordsend{
+    color:#F3976C;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -710,6 +719,9 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+.row{
+    text-align: center;
 }
 
 .med-width-whitespace {
