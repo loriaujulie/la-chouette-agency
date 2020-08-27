@@ -614,8 +614,7 @@ h3 {
 }
 .white {
     color: #000000!important;
-    text-decoration: underline;
-    font-size: 2em;
+    font-size: 1.8em;
     padding-bottom: 10px;
 }
 .portfolio-thumb {
